@@ -39,8 +39,8 @@ API_EXTERNAL_PORT=8080
 ### 1. Clonar el repositorio
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
-cd <NOMBRE_DEL_PROYECTO>
+git clone https://github.com/diana180102/biblioteca-backend.git
+cd biblioteca-backend
 ```
 
 ### 2. Levantar los contenedores

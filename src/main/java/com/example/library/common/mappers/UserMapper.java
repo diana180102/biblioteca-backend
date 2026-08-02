@@ -28,7 +28,7 @@ public class UserMapper {
                 .firstName(user.getFirstName())
                 .lastName(user.getLastName())
                 .email(user.getEmail())
-                .birthDate(LocalDate.parse(String.valueOf(user.getBirthDate())))
+                .birthDate(user.getBirthDate())
                 .build();
     }
 

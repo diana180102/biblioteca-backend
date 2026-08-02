@@ -2,6 +2,7 @@ package com.example.library.dto.request.user;
 
 import jakarta.validation.constraints.Email;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 
@@ -11,7 +12,7 @@ public record UpdateUserRequest(
         @Email
         String email,
         String documentNumber,
-        Date birthDate
+        LocalDate birthDate
 ) {
 
 }

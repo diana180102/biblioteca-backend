@@ -3,6 +3,7 @@ package com.example.library.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.Objects;
@@ -34,7 +35,7 @@ public class User {
     private String email;
 
     @Column(name ="birth_date" , nullable = false)
-    private Date birthDate;
+    private LocalDate birthDate;
 
     @Column(name = "created_at", insertable = false, updatable = false)
     private LocalDateTime createdAt;
